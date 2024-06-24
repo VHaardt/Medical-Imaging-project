@@ -1,4 +1,5 @@
-
+# University project for "Medical Imaging and Big Data" course
+---
 Here you will find all the materials used to create the project. Below is a brief overview of the available notebooks and folders:
 
 Python files:
@@ -14,12 +15,3 @@ Notebook:
 - Middle-Fusion_Mask.ipynb: contains the training of the Middle Fusion model with the mask applied.
 - Middle-Fusion.ipynb: contains the training of the Middle Fusion model.
 - Slices_extraction.ipynb: Used to select 40% of the images (of a type), especially taking those with the presence of the tumor with at least 0.5% of pixels highlighted.
-
-Folders:
-- BRATS: contains the main dataset.
-- Data: contains the dataset used and filtered by the "Slices_extraction.ipynb" code, zipped into a folder.
-- trained_models_EF: contains the saved models for each epoch of the Early Fusion model.
-- trained_models_EF_mask: contains the saved models for each epoch of the Early Fusion model with the mask applied.
-- trained_models_MF: contains the saved models for each epoch of the Middle Fusion model.
-- trained_models_MF_mask: contains the saved models for each epoch of the Middle Fusion model with the mask applied to each channel.
-- trained_models_MF_old: contains the saved models for each epoch of the Middle Fusion model with the mask used as the new channel.
